@@ -1,0 +1,16 @@
+We need a virtual casino web application.  It needs to simulate what it would be like for someone at a regular casino.  It should offer some basic casino games, and the ability to maintain a chip balance between all games.
+
+The application should be responsive and not laggy in any way.
+
+Users should be able to change games at any point.
+
+We don't want to tie the chips that the players (users) have to any form of money or value in the real world.  This application is really just a space where users can try out different games.  Think of it as "paper trading" for gambling.
+
+As an initial MVP, we'd like the application to support:
+- user authentication (the only method needs to be email and password for now)
+- a user can request a line of credit from the casino cashier (get chips for free) in order to populate their bankroll
+  - the user cannot request credit above a certain limit
+  - the user cannot request more chips if their current bankroll is above the limit
+- a user can view their current bankroll
+- if the user runs out (i.e. not able to make the minimum bet requirement at a game), then they have to leave the game and go back to the casino cashier to get more credit
+- a user can play at least one simple casino game (either a simple slots game or blackjack) and utilize their bankroll in the game
